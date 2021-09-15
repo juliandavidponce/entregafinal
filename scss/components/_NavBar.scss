@@ -1,0 +1,54 @@
+
+.menuhamburguesa{
+    display: none;
+}
+body{
+    margin: 0;
+}
+nav{
+    background-color: #114b09;
+    width: 100%;
+   padding: 0 20px 0;
+    top: 0%;
+    .navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+img{
+    width: 150px;
+}
+ul{
+    list-style: none;
+    height: 50px;
+    margin: 0;
+        .itemList{
+            transition-duration: 500ms;
+            display: flex;
+            align-items: center;
+            padding: 5px;
+
+        }
+        .itemList a{
+            display:block;
+            text-decoration: none;
+            color: white;
+            font-family: "Comic Sans MS";
+            text-transform: uppercase;
+            
+
+
+
+        }
+        .itemList:hover{
+            background-color:white;
+            
+                a{
+                    color: black;
+            }
+        }
+    }
+}
+

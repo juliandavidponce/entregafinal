@@ -1,0 +1,20 @@
+#contaminacion{
+    h2{
+        font-size: 3em;
+        text-align: center;
+        font-family: 'Azeret Mono', monospace;
+    }
+    .ArticuloContaminacion{
+        display: flex;
+        flex-direction: column;
+        p{
+            font-size: 1.25em;
+        }
+        .parrafoContaminacion{
+            max-width: 1400px;
+            margin: auto;
+            font-family: 'Azeret Mono', monospace;
+            color: black;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+#botelladeamor{
+    height: 100vh;
+    .botellaDeamor{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .listaBotella{
+            font-size: 1.25em;
+        }
+    }
+}
+.listaBotella li{
+    padding-bottom: 20px;
+}
+.tituloBotella{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold; 
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+// -- Donde Encontrarnos -- //
+
+#dondeencontrarnos{
+    .divLugar{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        max-width: 100vw;
+    }
+    .lugar{
+        color: white;
+        text-align: center;
+        margin: 10px;
+    background-color: #114b09;
+
+}
+}

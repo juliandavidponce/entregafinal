@@ -1,0 +1,17 @@
+@import "./components/breakpoints",
+        "./components/NavBar",
+        "./components/variable",
+        "./components/footer",
+        "./components/quereciclar",
+        "./components/home",
+        "./components/contaminacion",
+        "./components/dondeencontrarnos",
+        "./components/contacto";
+
+
+ // -- General --//
+
+ body{
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/leaves-pattern.png);
+    background-size: 500px;
+ }

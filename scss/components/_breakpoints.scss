@@ -1,0 +1,157 @@
+@media only screen and (min-width: 800px) {
+    #menuhamburguesa{
+        display: none;
+    }
+}
+@media only screen and (max-width: 799px) {
+// -- Nav-Bar y menu Hamburguesa -- //
+    .nav-bar {
+        display: none;
+    }
+    .menuhamburguesa{
+        display: block;
+    }
+
+    nav {
+        .navegacion{
+     display: none;
+    }
+    }
+    footer{
+        background-color: #114b09 ;
+        position: relative;
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+        list-style: none;
+    }
+}
+// -- Articulos -- //
+
+.divArticulo{
+    display: flex;
+    flex-direction: column;
+    
+    .articulo1{
+        width: 300px;
+        margin: auto;
+        img{
+            max-width: 250px;
+        }
+        p{
+            max-width: 250px;
+        }
+    }
+    .articulo2{
+        width: 300px;
+        margin: auto;
+        margin-top: 10px;
+        img{
+            max-width: 250px;
+        }
+        p{
+            max-width: 250px;
+        }
+    }
+    .articulo3{
+        width: 300px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        img{
+            max-width: 250px;
+        }
+        p{
+            max-width: 250px;
+        }
+    }
+}
+// -- Botella de Amor -- //
+#botelladeamor{
+    
+    height: 100vh;
+    width: 100vw;
+    h2{
+        
+        text-align: center;
+        font-size: 1.25rem;
+    }
+    .botellaDeamor{
+        height: 100%;
+
+        ul{
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    
+        li{
+            width: 100px;
+            list-style: none;
+            text-align: center;
+            padding:10px;
+            font-size: 0.65em;
+        }
+    }
+    .divBotella1{
+        height: 100%;
+        width: auto;
+    }
+    .divBotella2{
+        img{
+            max-width: 150px;
+        }
+    }
+        .divBotella3{
+            width: 200px;
+        }  
+    }
+    // -- Donde Encontrarnos -- //
+    .divLugar{
+        flex-direction: column;
+        .lugar{
+            width: 100vw;
+            iframe{
+                width: 80%;
+                height: 400px;
+            }
+        }
+    }
+    }
+    // -- Contaminacion -- //
+    #contaminacion{
+        .parrafoContaminacion{
+            max-width: 100vw;
+            p{
+                font-size: 0.25em;
+            }
+        }
+    }
+    // -- Contacto -- // 
+    .FormularioCompleto{
+        
+        height: 100vh;
+        max-width: 80vw;
+        margin: auto;
+        .formulario{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+    label{
+        padding: 15px;
+        margin: auto;
+    }
+        textarea{
+            width:200px;
+        }
+}

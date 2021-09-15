@@ -1,0 +1,277 @@
+@media only screen and (min-width: 800px) {
+  #menuhamburguesa {
+    display: none; } }
+
+@media only screen and (max-width: 799px) {
+  .nav-bar {
+    display: none; }
+  .menuhamburguesa {
+    display: block; }
+  nav .navegacion {
+    display: none; }
+  footer {
+    background-color: #114b09;
+    position: relative; }
+    footer ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      list-style: none; }
+  .divArticulo {
+    display: flex;
+    flex-direction: column; }
+    .divArticulo .articulo1 {
+      width: 300px;
+      margin: auto; }
+      .divArticulo .articulo1 img {
+        max-width: 250px; }
+      .divArticulo .articulo1 p {
+        max-width: 250px; }
+    .divArticulo .articulo2 {
+      width: 300px;
+      margin: auto;
+      margin-top: 10px; }
+      .divArticulo .articulo2 img {
+        max-width: 250px; }
+      .divArticulo .articulo2 p {
+        max-width: 250px; }
+    .divArticulo .articulo3 {
+      width: 300px;
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 5px; }
+      .divArticulo .articulo3 img {
+        max-width: 250px; }
+      .divArticulo .articulo3 p {
+        max-width: 250px; }
+  #botelladeamor {
+    height: 100vh;
+    width: 100vw; }
+    #botelladeamor h2 {
+      text-align: center;
+      font-size: 1.25rem; }
+    #botelladeamor .botellaDeamor {
+      height: 100%; }
+      #botelladeamor .botellaDeamor ul {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; }
+      #botelladeamor .botellaDeamor li {
+        width: 100px;
+        list-style: none;
+        text-align: center;
+        padding: 10px;
+        font-size: 0.65em; }
+    #botelladeamor .divBotella1 {
+      height: 100%;
+      width: auto; }
+    #botelladeamor .divBotella2 img {
+      max-width: 150px; }
+    #botelladeamor .divBotella3 {
+      width: 200px; }
+  .divLugar {
+    flex-direction: column; }
+    .divLugar .lugar {
+      width: 100vw; }
+      .divLugar .lugar iframe {
+        width: 80%;
+        height: 400px; } }
+
+#contaminacion .parrafoContaminacion {
+  max-width: 100vw; }
+  #contaminacion .parrafoContaminacion p {
+    font-size: 0.25em; }
+
+.FormularioCompleto {
+  height: 100vh;
+  max-width: 80vw;
+  margin: auto; }
+  .FormularioCompleto .formulario {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center; }
+  .FormularioCompleto label {
+    padding: 15px;
+    margin: auto; }
+  .FormularioCompleto textarea {
+    width: 200px; }
+
+.menuhamburguesa {
+  display: none; }
+
+body {
+  margin: 0; }
+
+nav {
+  background-color: #114b09;
+  width: 100%;
+  padding: 0 20px 0;
+  top: 0%; }
+  nav .navegacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  nav img {
+    width: 150px; }
+  nav ul {
+    list-style: none;
+    height: 50px;
+    margin: 0; }
+    nav ul .itemList {
+      transition-duration: 500ms;
+      display: flex;
+      align-items: center;
+      padding: 5px; }
+    nav ul .itemList a {
+      display: block;
+      text-decoration: none;
+      color: white;
+      font-family: "Comic Sans MS";
+      text-transform: uppercase; }
+    nav ul .itemList:hover {
+      background-color: white; }
+      nav ul .itemList:hover a {
+        color: black; }
+
+footer {
+  background-color: #114b09; }
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    color: black; }
+    footer ul li {
+      color: black;
+      padding: 5px; }
+    footer ul .svg-footer {
+      color: black;
+      width: 50px; }
+
+#botelladeamor {
+  height: 100vh; }
+  #botelladeamor .botellaDeamor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    #botelladeamor .botellaDeamor .listaBotella {
+      font-size: 1.25em; }
+
+.listaBotella li {
+  padding-bottom: 20px; }
+
+.tituloBotella {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 20px; }
+
+#dondeencontrarnos .divLugar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 100vw; }
+
+#dondeencontrarnos .lugar {
+  color: white;
+  text-align: center;
+  margin: 10px;
+  background-color: #114b09; }
+
+.divArticulo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 100px; }
+
+.articulo1 {
+  font-family: 'Azeret Mono', monospace;
+  display: block;
+  background-color: #114b09;
+  width: 600px;
+  height: 400px;
+  padding: 15px;
+  margin: 10px;
+  color: black; }
+  .articulo1 img {
+    width: 550px;
+    height: auto; }
+
+.articulo2 {
+  font-family: 'Azeret Mono', monospace;
+  display: block;
+  background-color: #114b09;
+  width: 600px;
+  height: 400px;
+  padding: 15px;
+  margin: 10px;
+  color: black; }
+  .articulo2 img {
+    width: 550px;
+    height: auto; }
+
+.articulo3 {
+  font-family: 'Azeret Mono', monospace;
+  display: block;
+  background-color: #114b09;
+  width: 600px;
+  height: 400px;
+  padding: 15px;
+  margin: 10px;
+  color: black; }
+  .articulo3 img {
+    width: 550px;
+    height: auto; }
+
+#contaminacion h2 {
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Azeret Mono', monospace; }
+
+#contaminacion .ArticuloContaminacion {
+  display: flex;
+  flex-direction: column; }
+  #contaminacion .ArticuloContaminacion p {
+    font-size: 1.25em; }
+  #contaminacion .ArticuloContaminacion .parrafoContaminacion {
+    max-width: 1400px;
+    margin: auto;
+    font-family: 'Azeret Mono', monospace;
+    color: black; }
+
+#dondeencontrarnos .divLugar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 100vw; }
+
+#dondeencontrarnos .lugar {
+  color: black;
+  text-align: center;
+  margin: 10px;
+  background-color: #114b09; }
+
+.FormularioCompleto {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.button {
+  border-radius: 20%; }
+
+body {
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/leaves-pattern.png);
+  background-size: 500px; }

@@ -1,0 +1,22 @@
+footer{
+    background-color: $Footer-color ;
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style: none;
+        margin: 0;
+        color: black;
+
+        li{
+            color: black;
+            padding: 5px;
+        }
+
+
+        .svg-footer {
+            color: black;
+            width: 50px;
+        }
+    }
+}
